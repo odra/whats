@@ -1,0 +1,26 @@
+/* Empty. Add your own CSS if you like */
+html, body {
+	height: :100%;
+	min-height: 100%;
+}
+
+body, .list, .pane {
+	background: #E3E3E3;
+}
+
+.text-red {
+	color: #A00005;
+}
+
+.text-center {
+	text-align: :center;
+}
+
+.main-logo {
+	width: 100px;
+	height: 100px;
+}
+
+.img-header {
+
+}
