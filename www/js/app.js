@@ -1,6 +1,4 @@
-(function () {
-    'use strict';
-    angular.module('app', ['ionic', 'app.controllers', 'GoldarkSDK', 'LocalStorageModule'])
+angular.module('app', ['ionic', 'app.controllers', 'GoldarkSDK', 'LocalStorageModule'])
     .config(function($stateProvider, $urlRouterProvider, $httpProvider, goldarkConfigProvider) {
         goldarkConfigProvider.setAPIToken('r1y2BOI1iIcIa0JCj4RvW1YIgfLCzo60bdg0Uq46jRSNqZk3X1iv9VELvbxOuUQCwBrfRO7CofZUdfeKC7f1XA==');
         goldarkConfigProvider.setBackendName('127');
@@ -18,4 +16,3 @@
         });
         $urlRouterProvider.otherwise('/home');
     });
-}).call(this);
